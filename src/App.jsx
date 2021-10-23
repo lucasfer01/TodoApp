@@ -5,7 +5,7 @@ import { TodoList } from './components/TodoList';
 const KEY = 'todoApp.todos'
 
 export function App() {
-    const [todos, setTodos] = useState([{'id':1, 'task':'limpiar', 'completed':false}]);
+    const [todos, setTodos] = useState([]);
 
     const todoTaskRef = useRef();
 
